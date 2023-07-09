@@ -137,9 +137,10 @@
     align-items: center;
     gap: 20px  ;
     padding: 15px;
-    background-color:rgba(255, 140, 0, 0.699);
+    background-color: rgb(255, 0, 0);
     border-radius: 5px;
     margin-top: -35px;
+    color: wheat;
 }
 .box-img{
 width: 100%;
@@ -173,4 +174,28 @@ border-radius: 5px;
     width: 80%;
     margin: auto;
     padding: 100px;
+}
+.card:hover{
+    background-color: rgb(255, 214, 159);
+    cursor: pointer;
+}
+.fotter-container{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+    background-color: black;
+    color: wheat;
+}
+.logo-social-icons{
+    width: 30%;
+}
+footer li{
+    list-style: none;
+}
+.footer-titel{
+    margin-bottom: 35px;
+    color: white;
 }
