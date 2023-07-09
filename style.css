@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+   padding: 0px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(47, 47, 59);
+    padding: 15px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    color: antiquewhite;
+}
+.banner-container{
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg");
+    background-color: rgba(1, 1, 19, 0.774);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
